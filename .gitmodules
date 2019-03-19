@@ -4,3 +4,6 @@
 [submodule "tests_libasm"]
 	path = tests_libasm
 	url = https://github.com/mmeisson/tests_libasm
+[submodule "tests_nm"]
+	path = tests_nm
+	url = https://github.com/mmeisson/tests_nm
