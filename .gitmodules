@@ -1,3 +1,6 @@
 [submodule "tests_malloc"]
 	path = tests_malloc
 	url = https://github.com/mmeisson/tests_malloc
+[submodule "tests_libasm"]
+	path = tests_libasm
+	url = https://github.com/mmeisson/tests_libasm
