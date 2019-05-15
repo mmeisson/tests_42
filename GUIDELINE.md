@@ -20,13 +20,13 @@ Even if you crash for a small mistake that you will fix in 15sec and learn nothi
 ### Library
 
 1. You crash in a defined behavior, you are wrong. -> 0
-2. You crash in defined a corner case : Check 1.
+2. You crash in a defined corner case : Check 1.
 3. You crash but the test is not in correction : Check 1
 4. You crash but... : Check 1... or ->
 
 ___
 5. You crash in an undefined behaviour ? There was no behaviour expected, do not care
-6. You don't know what to do with the undefined behaviour XYZ ? DO nothing. Build your functin with defined behaviour in mind, no more.
+6. You don't know what to do with the undefined behaviour XYZ ? DO nothing. Build your function with defined behaviour in mind, no more.
 ( Who cares about what `printf("%#.15-s\n");` does ?)
 7. You crash on a strlen(NULL) ? Check 5.
 
